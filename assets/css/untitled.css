@@ -17,7 +17,13 @@ body {
 }
 
 .fa.fa-lock.fa-stack-1x.fa-inverse {
-  /*background-color: #00587a;*/
+  background-color: #00587a;
+}
+.intro-text {
+  color: #000;
+}
+.masthead {
+  background-image: url("/assets/img/about/hero2.png");
 }
 
 .text-primary {
@@ -51,17 +57,30 @@ body {
   border-radius: 20px;
 }
 
-ul.social-buttons li a:active,
+/* ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
-  /*background-color: #fed136;*/
-}
+  background-color: #fed136;
+} */
 
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
-  /*background-color: #050a30;*/
+  background-color: #10a0ff;
   /*background-color: red;*/
+}
+
+ul.social-buttons li a {
+  font-size: 20px;
+  line-height: 40px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s;
+  color: #fff;
+  border-radius: 100%;
+  outline: none;
+  background-color: #ff4d7e;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active:focus,
